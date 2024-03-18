@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 1.25rem 0;
+}
+
+.headerContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem;
+}
+
+.header h1 {
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: calc(3rem + 12px);
+    height: calc(3rem + 12px);
+    border-radius: 8px;
+}
