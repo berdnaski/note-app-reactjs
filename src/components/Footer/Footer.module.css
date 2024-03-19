@@ -2,16 +2,22 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    width: 35%;
+    width: 60%;
     margin: auto;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        width: 35%;
+    }
 }
 
 .footer button {
     border: none;
     background-color: rgb(207, 207, 207);
     color: black;
-    width: 69px;
-    height: 71px;
+    width: 4.313rem;
+    height: 4.438rem;
     display: flex;
     align-items: center;
     justify-content: center;

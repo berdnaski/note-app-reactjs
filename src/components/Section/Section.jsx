@@ -1,6 +1,6 @@
 import styles from "./Section.module.css"
 
-export function Section() {
+const Section = () => {
     return (
         <aside className={styles.aside}>
             <button className={styles.button}>All</button>
@@ -8,3 +8,5 @@ export function Section() {
         </aside>
     )
 }
+
+export default Section;

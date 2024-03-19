@@ -1,7 +1,7 @@
 import styles from "./Note.module.css"
 import { Trash, Pencil, Plus } from "@phosphor-icons/react";
 
-export function Note() {
+const Note = () => {
     return (
         <div className={styles.note}>
             <section className={styles.section}>
@@ -23,3 +23,5 @@ export function Note() {
         </div>
     )
 }
+
+export default Note
