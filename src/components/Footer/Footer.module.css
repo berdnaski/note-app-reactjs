@@ -1,0 +1,35 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 35%;
+    margin: auto;
+}
+
+.footer button {
+    border: none;
+    background-color: rgb(207, 207, 207);
+    color: black;
+    width: 69px;
+    height: 71px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    padding: 2px 4px;
+    cursor: pointer;
+}
+
+@media (max-width: 767px) {
+    .footer {
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 2rem;
+    }
+}
+
+.footer button:hover {
+    background-color: rgb(224, 221, 221);
+    transition: background-color 0.5s ease;
+}

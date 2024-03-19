@@ -1,0 +1,39 @@
+.aside {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.button {
+    border: 0;
+    background-color: transparent;
+    color: white;
+    font-size: 1.5rem;
+    position: relative;
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+}
+
+.button:hover {
+    border-bottom: 1px solid rgb(224, 221, 221);
+    transition: border-bottom-width 0.5s ease;
+}
+
+.button::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgb(223, 221, 221);
+    z-index: -1;
+    transition: width 0.2s ease;
+}
+
+.button:hover::after {
+    width: 100%;
+}
