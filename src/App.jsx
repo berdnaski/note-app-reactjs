@@ -5,7 +5,7 @@ import AppRoutes from './Routes/Routes';
 
 function App() {
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.container}>
         <AppRoutes />
     </div>
   );

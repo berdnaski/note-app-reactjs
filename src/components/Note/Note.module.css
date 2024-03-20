@@ -11,6 +11,12 @@
     background-color: rgb(197, 196, 197);
 }
 
+@media (min-width: 1080px) {
+    .section {
+        max-width: 35%;
+    }
+}
+
 .sectionContainer {
     display: flex;
     align-items: flex-start;

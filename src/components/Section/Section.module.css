@@ -2,9 +2,14 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 75%;
     margin: auto;
     margin-bottom: 2rem;
+}
+
+@media (min-width: 1080px) {
+    .aside {
+        max-width: 20%;
+    }
 }
 
 .button {

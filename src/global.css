@@ -1,11 +1,13 @@
-*{
+/* Estilos gerais */
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
 body {
-    background-color: #000000;
     font-family: "Saira", sans-serif;
     overflow-x: hidden;
 }
+
+

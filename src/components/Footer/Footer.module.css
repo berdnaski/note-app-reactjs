@@ -2,14 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    width: 100%;
+    width: 35%;
     margin: auto;
-}
-
-@media (max-width: 768px) {
-    .footer {
-        width: 35%;
-    }
 }
 
 .footer button {
