@@ -2,11 +2,11 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    width: 35%;
+    width: 70%;
     margin: auto;
 }
 
-.footer button {
+.link {
     border: none;
     background-color: rgb(207, 207, 207);
     color: black;
@@ -21,7 +21,7 @@
 }
 
 @media (max-width: 767px) {
-    .footer {
+    .link {
         bottom: 0;
         left: 0;
         width: 100%;
@@ -29,7 +29,7 @@
     }
 }
 
-.footer button:hover {
+.link:hover {
     background-color: rgb(224, 221, 221);
     transition: background-color 0.5s ease;
 }
